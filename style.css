@@ -606,3 +606,29 @@ label {
 .main_logo_bottom_block {
     margin: auto auto 200px auto;
 }
+.competitions{
+    width: 850px;
+    height: 500px;
+    margin: 0 auto;
+}
+.news{
+    position: block;
+    background-color: #c9e9ff;
+    height:250px;
+    width:700px;
+    display:flex;
+    margin-left: 100px;
+    margin-top:50px;
+    border-radius: 20px 20px 20px 20px;
+}
+.newsphotos{
+    width: 300px;
+    border-radius: 20px 20px 20px 20px;
+    margin:25px ;
+}
+.newsheader{
+    margin:25px
+}
+.newstext{
+    margin: 0px;
+}
