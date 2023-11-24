@@ -606,9 +606,9 @@ label {
 .main_logo_bottom_block {
     margin: auto auto 200px auto;
 }
-.competitions{
+.newssection{
     width: 850px;
-    height: 500px;
+    height: 800px;
     margin: 0 auto;
 }
 .news{
@@ -620,6 +620,7 @@ label {
     margin-left: 100px;
     margin-top:50px;
     border-radius: 20px 20px 20px 20px;
+    padding: 0px;
 }
 .newsphotos{
     width: 300px;
@@ -627,8 +628,15 @@ label {
     margin:25px ;
 }
 .newsheader{
-    margin:25px
+    margin-top:25px;
+    margin-left:25px;
 }
 .newstext{
-    margin: 0px;
+    margin-left: 25px;
+}
+.newslink{
+    margin-left:25px;
+    text-decoration: none;
+    font-family: 'Overpass', sans-serif;
+    font-size: 18px;
 }
