@@ -637,8 +637,19 @@ label {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    margin-left: 20px;
 }
 .comp-main-href {
     text-decoration: none;
     font-family: 'Comfortaa', cursive;
 }
+
+/* Competitions dop fail*/
+
+.competitions-dop-fail-head {
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    font-family: 'Comfortaa', cursive;
+}
+
