@@ -608,11 +608,11 @@ label {
 }
 .newssection{
     width: 850px;
-    height: 800px;
+    height: 5000px;
     margin: 0 auto;
 }
 .news{
-    position: block;
+    
     background-color: #c9e9ff;
     height:250px;
     width:700px;
@@ -624,12 +624,15 @@ label {
 }
 .newsphotos{
     width: 300px;
+    
     border-radius: 20px 20px 20px 20px;
     margin:25px ;
 }
 .newsheader{
     margin-top:25px;
     margin-left:25px;
+    width:300px;
+    
 }
 .newstext{
     margin-left: 25px;
