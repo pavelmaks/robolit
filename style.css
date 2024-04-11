@@ -586,21 +586,71 @@ label {
 
 .h1-competitions {
     font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 50px;
 }
 
 .main-section {
-    margin: 0px 105px;
-    display: flex;
-    flex-direction: column;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
-.main_logo_top_block {
-    margin: auto auto 200px auto;
+
+
+.inner-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
-.main_logo_center_block {
-    margin: auto auto 200px auto;
+.comp-product-item {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.comp-main-img {
+    width: 340px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comp-main-img img {
+    max-width: 100%;
+    max-height: 100%; 
+}
+
+
+.comp-main-block {
+    margin: 0;
+    width: 300px;
+    height: 40px;
+    background-color: #4baef0;
+    border-radius:10px ;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.comp-main-href {
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+}
+
+/* Competitions dop fail*/
+
+.competitions-dop-fail-head {
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    font-family: 'Comfortaa', cursive;
 }
 
 .main_logo_bottom_block {
